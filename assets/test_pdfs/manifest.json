@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28",
+  "samples": [
+    {
+      "id": "arxiv_doublecol",
+      "file": "sample1_arxiv_doublecol.pdf",
+      "category": "双栏论文",
+      "source_url": "https://arxiv.org/pdf/1706.03762",
+      "title": "Attention Is All You Need (Vaswani et al., 2017)",
+      "pages_used": 8,
+      "page_size_pts": "612x792 (letter)",
+      "has_text_layer": true,
+      "test_focus": "双栏阅读顺序、行内公式、参考文献、figure 标题",
+      "trimmed": "p1-p8 of 15"
+    },
+    {
+      "id": "brk_letter",
+      "file": "sample2_brk_letter.pdf",
+      "category": "财报 / 长文 + 表格",
+      "source_url": "https://www.berkshirehathaway.com/letters/2023ltr.pdf",
+      "title": "Berkshire Hathaway 2023 Annual Letter",
+      "pages_used": 8,
+      "page_size_pts": "594x774",
+      "has_text_layer": true,
+      "test_focus": "正文长段落、表格(三线表)、千分位与负号、跨页连续",
+      "trimmed": "p1-p8 of 16"
+    },
+    {
+      "id": "nasa_scan",
+      "file": "sample3_nasa_scan.pdf",
+      "category": "扫描件",
+      "source_url": "https://ntrs.nasa.gov/api/citations/19650014216/downloads/19650014216.pdf",
+      "title": "NASA Contractor Report - Vibration Test Specifications (1965)",
+      "pages_used": 6,
+      "page_size_pts": "557.52x730.08",
+      "has_text_layer": true,
+      "text_layer_quality": "low (NTRS auto-OCR with artifacts)",
+      "test_focus": "扫描页 OCR 准确度、字符还原、附图说明对齐",
+      "trimmed": "p1-p6 of 82"
+    },
+    {
+      "id": "cs224n_slides",
+      "file": "sample4_cs224n_slides.pdf",
+      "category": "幻灯片型",
+      "source_url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1244/slides/cs224n-2024-lecture08-transformers.pdf",
+      "title": "CS224N 2024 Lecture 8: Transformers",
+      "pages_used": 12,
+      "page_size_pts": "960x540 (16:9)",
+      "has_text_layer": true,
+      "test_focus": "幻灯片标题/正文层级、箭头/连线/嵌入图、公式",
+      "trimmed": "p1-p12 of 70"
+    },
+    {
+      "id": "wiki_long",
+      "file": "sample5_wiki.pdf",
+      "category": "图文混杂长文",
+      "source_url": "https://en.wikipedia.org/api/rest_v1/page/pdf/Photography",
+      "title": "Wikipedia: Photography (REST PDF export)",
+      "pages_used": 8,
+      "page_size_pts": "595.92x842.88 (A4)",
+      "has_text_layer": true,
+      "test_focus": "图文穿插、图说、链接、引用",
+      "trimmed": "p1-p8 of 26"
+    }
+  ],
+  "scoring_dimensions": [
+    {"key": "text_accuracy", "label": "文本准确", "max": 5, "method": "compared to pdftotext baseline + manual sample"},
+    {"key": "table_recovery", "label": "表格还原", "max": 5, "method": "structured table count vs ground truth"},
+    {"key": "image_handling", "label": "图片处理", "max": 5, "method": "extracted img count vs pdfimages baseline"},
+    {"key": "layout_order", "label": "版式/双栏顺序", "max": 5, "method": "first-1000-char order match vs human-reviewed"},
+    {"key": "speed_cost", "label": "速度/成本", "max": 5, "method": "pages-per-second normalized; +cost penalty if non-free"}
+  ],
+  "tools_under_test": [
+    "markitdown",
+    "mineru",
+    "docling",
+    "marker",
+    "paddleocr",
+    "opendataloader-pdf"
+  ]
+}

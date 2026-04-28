@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+out/
+*.log
+# Test PDFs themselves are NOT committed — only the manifest.json with URLs + sha256.
+assets/test_pdfs/*.pdf

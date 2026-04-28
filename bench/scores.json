@@ -1,0 +1,592 @@
+{
+  "scores": [
+    {
+      "tool": "markitdown",
+      "sample": "arxiv_doublecol",
+      "text_accuracy": 3.95,
+      "table_recovery": 3.0,
+      "image_handling": 1.0,
+      "layout_order": 5.0,
+      "speed_cost": 5.0,
+      "_md_chars": 24842,
+      "_baseline_chars": 29843
+    },
+    {
+      "tool": "markitdown",
+      "sample": "brk_letter",
+      "text_accuracy": 5.0,
+      "table_recovery": 3.0,
+      "image_handling": 3.0,
+      "layout_order": 5.0,
+      "speed_cost": 5.0,
+      "_md_chars": 22017,
+      "_baseline_chars": 21616
+    },
+    {
+      "tool": "markitdown",
+      "sample": "nasa_scan",
+      "text_accuracy": 5.0,
+      "table_recovery": 5.0,
+      "image_handling": 0.0,
+      "layout_order": 3.03,
+      "speed_cost": 5.0,
+      "_md_chars": 6193,
+      "_baseline_chars": 5023
+    },
+    {
+      "tool": "markitdown",
+      "sample": "cs224n_slides",
+      "text_accuracy": 2.02,
+      "table_recovery": 3.0,
+      "image_handling": 0.0,
+      "layout_order": 5.0,
+      "speed_cost": 5.0,
+      "_md_chars": 5583,
+      "_baseline_chars": 10662
+    },
+    {
+      "tool": "markitdown",
+      "sample": "wiki_long",
+      "text_accuracy": 4.7,
+      "table_recovery": 3.0,
+      "image_handling": 0.0,
+      "layout_order": 5.0,
+      "speed_cost": 5.0,
+      "_md_chars": 24513,
+      "_baseline_chars": 25747
+    },
+    {
+      "tool": "mineru",
+      "sample": "arxiv_doublecol",
+      "text_accuracy": 4.36,
+      "table_recovery": 3.0,
+      "image_handling": 3.08,
+      "layout_order": 5.0,
+      "speed_cost": 0.27,
+      "_md_chars": 26810,
+      "_baseline_chars": 29843
+    },
+    {
+      "tool": "mineru",
+      "sample": "brk_letter",
+      "text_accuracy": 4.7,
+      "table_recovery": 3.0,
+      "image_handling": 3.0,
+      "layout_order": 5.0,
+      "speed_cost": 0.94,
+      "_md_chars": 20590,
+      "_baseline_chars": 21616
+    },
+    {
+      "tool": "mineru",
+      "sample": "nasa_scan",
+      "text_accuracy": 2.27,
+      "table_recovery": 2.5,
+      "image_handling": 2.08,
+      "layout_order": 5.0,
+      "speed_cost": 0.57,
+      "_md_chars": 2826,
+      "_baseline_chars": 5023
+    },
+    {
+      "tool": "mineru",
+      "sample": "cs224n_slides",
+      "text_accuracy": 1.53,
+      "table_recovery": 3.0,
+      "image_handling": 5.0,
+      "layout_order": 1.97,
+      "speed_cost": 1.49,
+      "_md_chars": 4747,
+      "_baseline_chars": 10662
+    },
+    {
+      "tool": "mineru",
+      "sample": "wiki_long",
+      "text_accuracy": 4.63,
+      "table_recovery": 3.0,
+      "image_handling": 5.0,
+      "layout_order": 5.0,
+      "speed_cost": 0.77,
+      "_md_chars": 24222,
+      "_baseline_chars": 25747
+    },
+    {
+      "tool": "docling",
+      "sample": "arxiv_doublecol",
+      "text_accuracy": 4.29,
+      "table_recovery": 5.0,
+      "image_handling": 1.0,
+      "layout_order": 5.0,
+      "speed_cost": 2.93,
+      "_md_chars": 26439,
+      "_baseline_chars": 29843
+    },
+    {
+      "tool": "docling",
+      "sample": "brk_letter",
+      "text_accuracy": 4.99,
+      "table_recovery": 3.0,
+      "image_handling": 3.0,
+      "layout_order": 5.0,
+      "speed_cost": 5.0,
+      "_md_chars": 21569,
+      "_baseline_chars": 21616
+    },
+    {
+      "tool": "docling",
+      "sample": "nasa_scan",
+      "text_accuracy": 5.0,
+      "table_recovery": 5.0,
+      "image_handling": 0.0,
+      "layout_order": 5.0,
+      "speed_cost": 5.0,
+      "_md_chars": 7013,
+      "_baseline_chars": 5023
+    },
+    {
+      "tool": "docling",
+      "sample": "cs224n_slides",
+      "text_accuracy": 0.92,
+      "table_recovery": 3.0,
+      "image_handling": 0.0,
+      "layout_order": 3.01,
+      "speed_cost": 5.0,
+      "_md_chars": 3704,
+      "_baseline_chars": 10662
+    },
+    {
+      "tool": "docling",
+      "sample": "wiki_long",
+      "text_accuracy": 4.7,
+      "table_recovery": 3.0,
+      "image_handling": 0.0,
+      "layout_order": 5.0,
+      "speed_cost": 5.0,
+      "_md_chars": 24505,
+      "_baseline_chars": 25747
+    },
+    {
+      "tool": "marker",
+      "sample": "arxiv_doublecol",
+      "text_accuracy": 4.54,
+      "table_recovery": 5.0,
+      "image_handling": 4.12,
+      "layout_order": 5.0,
+      "speed_cost": 0.0,
+      "_md_chars": 27660,
+      "_baseline_chars": 29843
+    },
+    {
+      "tool": "marker",
+      "sample": "brk_letter",
+      "text_accuracy": 4.76,
+      "table_recovery": 3.0,
+      "image_handling": 3.0,
+      "layout_order": 5.0,
+      "speed_cost": 0.58,
+      "_md_chars": 20783,
+      "_baseline_chars": 21616
+    },
+    {
+      "tool": "marker",
+      "sample": "nasa_scan",
+      "text_accuracy": 5.0,
+      "table_recovery": 5.0,
+      "image_handling": 2.08,
+      "layout_order": 5.0,
+      "speed_cost": 0.08,
+      "_md_chars": 5564,
+      "_baseline_chars": 5023
+    },
+    {
+      "tool": "marker",
+      "sample": "cs224n_slides",
+      "text_accuracy": 1.15,
+      "table_recovery": 3.0,
+      "image_handling": 5.0,
+      "layout_order": 1.06,
+      "speed_cost": 0.4,
+      "_md_chars": 4096,
+      "_baseline_chars": 10662
+    },
+    {
+      "tool": "marker",
+      "sample": "wiki_long",
+      "text_accuracy": 5.0,
+      "table_recovery": 3.0,
+      "image_handling": 5.0,
+      "layout_order": 0.0,
+      "speed_cost": 0.59,
+      "_md_chars": 33608,
+      "_baseline_chars": 25747
+    },
+    {
+      "tool": "paddleocr",
+      "sample": "arxiv_doublecol",
+      "text_accuracy": 3.99,
+      "table_recovery": 3.0,
+      "image_handling": 1.0,
+      "layout_order": 5.0,
+      "speed_cost": 0.0,
+      "_md_chars": 24997,
+      "_baseline_chars": 29843
+    },
+    {
+      "tool": "paddleocr",
+      "sample": "brk_letter",
+      "text_accuracy": 4.65,
+      "table_recovery": 3.0,
+      "image_handling": 3.0,
+      "layout_order": 5.0,
+      "speed_cost": 0.0,
+      "_md_chars": 20413,
+      "_baseline_chars": 21616
+    },
+    {
+      "tool": "paddleocr",
+      "sample": "nasa_scan",
+      "text_accuracy": 2.03,
+      "table_recovery": 2.5,
+      "image_handling": 0.0,
+      "layout_order": 5.0,
+      "speed_cost": 0.16,
+      "_md_chars": 2637,
+      "_baseline_chars": 5023
+    },
+    {
+      "tool": "paddleocr",
+      "sample": "cs224n_slides",
+      "text_accuracy": 1.87,
+      "table_recovery": 3.0,
+      "image_handling": 0.0,
+      "layout_order": 5.0,
+      "speed_cost": 0.0,
+      "_md_chars": 5324,
+      "_baseline_chars": 10662
+    },
+    {
+      "tool": "paddleocr",
+      "sample": "wiki_long",
+      "text_accuracy": 4.33,
+      "table_recovery": 3.0,
+      "image_handling": 0.0,
+      "layout_order": 5.0,
+      "speed_cost": 0.0,
+      "_md_chars": 22994,
+      "_baseline_chars": 25747
+    },
+    {
+      "tool": "opendataloader-pdf",
+      "sample": "arxiv_doublecol",
+      "text_accuracy": 3.99,
+      "table_recovery": 3.0,
+      "image_handling": 4.12,
+      "layout_order": 5.0,
+      "speed_cost": 5.0,
+      "_md_chars": 25033,
+      "_baseline_chars": 29843
+    },
+    {
+      "tool": "opendataloader-pdf",
+      "sample": "brk_letter",
+      "text_accuracy": 4.69,
+      "table_recovery": 3.0,
+      "image_handling": 3.0,
+      "layout_order": 5.0,
+      "speed_cost": 5.0,
+      "_md_chars": 20561,
+      "_baseline_chars": 21616
+    },
+    {
+      "tool": "opendataloader-pdf",
+      "sample": "nasa_scan",
+      "text_accuracy": 3.17,
+      "table_recovery": 2.5,
+      "image_handling": 5.0,
+      "layout_order": 4.25,
+      "speed_cost": 5.0,
+      "_md_chars": 3551,
+      "_baseline_chars": 5023
+    },
+    {
+      "tool": "opendataloader-pdf",
+      "sample": "cs224n_slides",
+      "text_accuracy": 3.09,
+      "table_recovery": 5.0,
+      "image_handling": 4.26,
+      "layout_order": 3.29,
+      "speed_cost": 5.0,
+      "_md_chars": 7412,
+      "_baseline_chars": 10662
+    },
+    {
+      "tool": "opendataloader-pdf",
+      "sample": "wiki_long",
+      "text_accuracy": 4.55,
+      "table_recovery": 5.0,
+      "image_handling": 5.0,
+      "layout_order": 5.0,
+      "speed_cost": 5.0,
+      "_md_chars": 23889,
+      "_baseline_chars": 25747
+    }
+  ],
+  "totals": {
+    "markitdown": 17.9,
+    "mineru": 15.2,
+    "docling": 17.8,
+    "marker": 15.3,
+    "paddleocr": 12.1,
+    "opendataloader-pdf": 21.4
+  },
+  "pps_per_tool": {
+    "markitdown": 30.376,
+    "mineru": 0.285,
+    "docling": 3.435,
+    "marker": 0.138,
+    "paddleocr": 0.047,
+    "opendataloader-pdf": 6.73
+  },
+  "by_record": [
+    {
+      "tool": "markitdown",
+      "sample": "arxiv_doublecol",
+      "wall_seconds": 1.276,
+      "pages_per_second": 6.2711,
+      "char_count": 24842,
+      "error": null
+    },
+    {
+      "tool": "markitdown",
+      "sample": "brk_letter",
+      "wall_seconds": 0.312,
+      "pages_per_second": 25.6016,
+      "char_count": 22017,
+      "error": null
+    },
+    {
+      "tool": "markitdown",
+      "sample": "nasa_scan",
+      "wall_seconds": 0.072,
+      "pages_per_second": 83.4236,
+      "char_count": 6193,
+      "error": null
+    },
+    {
+      "tool": "markitdown",
+      "sample": "cs224n_slides",
+      "wall_seconds": 0.48,
+      "pages_per_second": 25.0054,
+      "char_count": 5583,
+      "error": null
+    },
+    {
+      "tool": "markitdown",
+      "sample": "wiki_long",
+      "wall_seconds": 0.691,
+      "pages_per_second": 11.5788,
+      "char_count": 24513,
+      "error": null
+    },
+    {
+      "tool": "opendataloader-pdf",
+      "sample": "arxiv_doublecol",
+      "wall_seconds": 3.936,
+      "pages_per_second": 2.0326,
+      "char_count": 25033,
+      "error": null
+    },
+    {
+      "tool": "opendataloader-pdf",
+      "sample": "brk_letter",
+      "wall_seconds": 0.398,
+      "pages_per_second": 20.0983,
+      "char_count": 20561,
+      "error": null
+    },
+    {
+      "tool": "opendataloader-pdf",
+      "sample": "nasa_scan",
+      "wall_seconds": 2.227,
+      "pages_per_second": 2.6946,
+      "char_count": 3551,
+      "error": null
+    },
+    {
+      "tool": "opendataloader-pdf",
+      "sample": "cs224n_slides",
+      "wall_seconds": 2.215,
+      "pages_per_second": 5.4169,
+      "char_count": 7412,
+      "error": null
+    },
+    {
+      "tool": "opendataloader-pdf",
+      "sample": "wiki_long",
+      "wall_seconds": 2.349,
+      "pages_per_second": 3.406,
+      "char_count": 23889,
+      "error": null
+    },
+    {
+      "tool": "docling",
+      "sample": "arxiv_doublecol",
+      "wall_seconds": 8.883,
+      "pages_per_second": 0.9006,
+      "char_count": 26439,
+      "error": null
+    },
+    {
+      "tool": "docling",
+      "sample": "brk_letter",
+      "wall_seconds": 1.381,
+      "pages_per_second": 5.7948,
+      "char_count": 21569,
+      "error": null
+    },
+    {
+      "tool": "docling",
+      "sample": "nasa_scan",
+      "wall_seconds": 3.139,
+      "pages_per_second": 1.9116,
+      "char_count": 7013,
+      "error": null
+    },
+    {
+      "tool": "docling",
+      "sample": "cs224n_slides",
+      "wall_seconds": 2.229,
+      "pages_per_second": 5.3844,
+      "char_count": 3704,
+      "error": null
+    },
+    {
+      "tool": "docling",
+      "sample": "wiki_long",
+      "wall_seconds": 2.512,
+      "pages_per_second": 3.1846,
+      "char_count": 24505,
+      "error": null
+    },
+    {
+      "tool": "mineru",
+      "sample": "arxiv_doublecol",
+      "wall_seconds": 62.091,
+      "pages_per_second": 0.1288,
+      "char_count": 26810,
+      "error": null
+    },
+    {
+      "tool": "mineru",
+      "sample": "brk_letter",
+      "wall_seconds": 24.861,
+      "pages_per_second": 0.3218,
+      "char_count": 20590,
+      "error": null
+    },
+    {
+      "tool": "mineru",
+      "sample": "nasa_scan",
+      "wall_seconds": 27.839,
+      "pages_per_second": 0.2155,
+      "char_count": 2826,
+      "error": null
+    },
+    {
+      "tool": "mineru",
+      "sample": "cs224n_slides",
+      "wall_seconds": 24.819,
+      "pages_per_second": 0.4835,
+      "char_count": 4747,
+      "error": null
+    },
+    {
+      "tool": "mineru",
+      "sample": "wiki_long",
+      "wall_seconds": 29.125,
+      "pages_per_second": 0.2747,
+      "char_count": 24222,
+      "error": null
+    },
+    {
+      "tool": "marker",
+      "sample": "arxiv_doublecol",
+      "wall_seconds": 620.967,
+      "pages_per_second": 0.0129,
+      "char_count": 27660,
+      "error": null
+    },
+    {
+      "tool": "marker",
+      "sample": "brk_letter",
+      "wall_seconds": 36.769,
+      "pages_per_second": 0.2176,
+      "char_count": 20783,
+      "error": null
+    },
+    {
+      "tool": "marker",
+      "sample": "nasa_scan",
+      "wall_seconds": 81.771,
+      "pages_per_second": 0.0734,
+      "char_count": 5564,
+      "error": null
+    },
+    {
+      "tool": "marker",
+      "sample": "cs224n_slides",
+      "wall_seconds": 71.701,
+      "pages_per_second": 0.1674,
+      "char_count": 4096,
+      "error": null
+    },
+    {
+      "tool": "marker",
+      "sample": "wiki_long",
+      "wall_seconds": 36.402,
+      "pages_per_second": 0.2198,
+      "char_count": 33608,
+      "error": null
+    },
+    {
+      "tool": "paddleocr",
+      "sample": "arxiv_doublecol",
+      "wall_seconds": 287.729,
+      "pages_per_second": 0.0278,
+      "char_count": 24997,
+      "error": null
+    },
+    {
+      "tool": "paddleocr",
+      "sample": "brk_letter",
+      "wall_seconds": 156.089,
+      "pages_per_second": 0.0513,
+      "char_count": 20413,
+      "error": null
+    },
+    {
+      "tool": "paddleocr",
+      "sample": "nasa_scan",
+      "wall_seconds": 61.4,
+      "pages_per_second": 0.0977,
+      "char_count": 2637,
+      "error": null
+    },
+    {
+      "tool": "paddleocr",
+      "sample": "cs224n_slides",
+      "wall_seconds": 312.382,
+      "pages_per_second": 0.0384,
+      "char_count": 5324,
+      "error": null
+    },
+    {
+      "tool": "paddleocr",
+      "sample": "wiki_long",
+      "wall_seconds": 365.5,
+      "pages_per_second": 0.0219,
+      "char_count": 22994,
+      "error": null
+    }
+  ]
+}
