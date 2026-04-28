@@ -1,7 +1,7 @@
 # pdf-to-md-bench
 
 > 6 个 PDF→Markdown 工具 × 5 份真实 PDF = 30 组实测,**评分细则全部公开**。
-> 视频:**[B 站链接 — 待填]**(发布后回填)。
+> 视频:**[https://www.bilibili.com/video/BV17j96BGEZy](https://www.bilibili.com/video/BV17j96BGEZy)**
 
 ## 工具阵容
 
